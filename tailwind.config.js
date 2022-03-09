@@ -4,6 +4,10 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#3e5cd1',
+        'secondary' : '#1f3e72',
+      },
+      backgroundImage: {
+        "nurse": "url('https://i.imgur.com/hVSInLf.jpg')"
       }
     },
     fontFamily: {

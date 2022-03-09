@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body class=" font-vietnam">
-    <header class="w-full h-[15vh] px-20 backdrop-blur bg-white/80 hidden items-center justify-between lg:flex fixed top-0 left-0 ">
+    <header class="w-full h-[15vh] px-20 backdrop-blur bg-white/80 hidden items-center justify-between lg:flex fixed top-0 left-0 z-50 ">
         <h1 class="font-bold text-primary text-2xl pr-32">Vaccination</h1>
         <nav class=" space-x-5">
             <a class=" text-gray-500 font-bold text-sm cursor-pointer">Base Informativa</a>
@@ -28,8 +28,23 @@
             </button>
     </header>
     <main class="w-full h-[100vh] flex ">
-        <div class="w-[50%] h-full bg-white"></div>
-        <div class="w-[50%] h-full bg-primary"></div>
+        <div class="w-[50%] h-full bg-white overflow-hidden relative  ">
+            <svg class=" w-52 h-52 absolute top-0 left-7  " viewBox="0 0 330 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.664734" y="164.665" width="232.871" height="232.871" transform="rotate(-45 0.664734 164.665)" fill="#F4F6FB"/>
+            </svg>
+            <svg class="  w-72 h-72 absolute bottom-10 right-[-140px]  " viewBox="0 0 330 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.664734" y="164.665" width="232.871" height="232.871" transform="rotate(-45 0.664734 164.665)" fill="#F4F6FB"/>
+            </svg> 
+            <div class=" w-full absolute top-56 flex justify-center">
+                <h2 class=" font-bold text-secondary text-6xl">Enfrentemos el virus <br> con vacunas</h2>
+                
+
+            </div>
+
+        </div>
+        <div class="w-[50%] h-full bg-nurse bg-cover bg-center">
+            
+        </div>
     </main>
     <script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
 
