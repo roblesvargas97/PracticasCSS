@@ -25,28 +25,109 @@
                 data-mdb-ripple-color="light"
                 type="button">
                 Informate
-            </button>
+        </button>
     </header>
-    <main class="w-full h-[100vh] flex ">
-        <div class="w-[50%] h-full bg-white overflow-hidden relative  ">
-            <svg class=" w-52 h-52 absolute top-0 left-7  " viewBox="0 0 330 330" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="0.664734" y="164.665" width="232.871" height="232.871" transform="rotate(-45 0.664734 164.665)" fill="#F4F6FB"/>
-            </svg>
-            <svg class="  w-72 h-72 absolute bottom-10 right-[-140px]  " viewBox="0 0 330 330" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="0.664734" y="164.665" width="232.871" height="232.871" transform="rotate(-45 0.664734 164.665)" fill="#F4F6FB"/>
-            </svg> 
-            <div class=" w-full absolute top-56 flex justify-center">
-                <h2 class=" font-bold text-secondary text-6xl">Enfrentemos el virus <br> con vacunas</h2>
-                
-
+    <main class="w-full">
+        <section class="h-[100vh] flex">
+            <div class="w-[50%] h-full bg-white overflow-hidden relative  ">
+                <svg class=" w-52 h-52 absolute top-0 left-7  " viewBox="0 0 330 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.664734" y="164.665" width="232.871" height="232.871" transform="rotate(-45 0.664734 164.665)" fill="#F4F6FB"/>
+                </svg>
+                <svg class="  w-72 h-72 absolute bottom-10 right-[-140px]  " viewBox="0 0 330 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.664734" y="164.665" width="232.871" height="232.871" transform="rotate(-45 0.664734 164.665)" fill="#F4F6FB"/>
+                </svg> 
+                <div class=" w-full lg:px-20 xl:px-32 absolute top-28 flex flex-col">
+                    <h2 class=" font-bold text-secondary lg:text-4xl xl:text-6xl text-center">Enfrentemos el virus <br> con vacunas</h2>
+                    <h3 class="text-gray-500 font-normal lg:text-base xl:text-lg  text-center lg:mt-5 xl:mt-10">
+                        Detengamos esta pandemia vacunandonos. <br>
+                        Vacunate tu y tu familia.
+                    </h3>
+                    <div class="w-full lg:mt-5 xl:mt-10 flex justify-between">
+                        <div class="flex items-center">
+                            <span class=" h-10 w-10 bg-yellow-200/30 backdrop-blur shadow-md rounded-sm flex flex-col items-center justify-center text-yellow-500"><i class="fa-solid fa-square-check"></i></span>
+                            <p class=" ml-2 text-secondary lg:text-sm xl:text-lg">La mejor proteccion</p>
+                        </div>
+                        <div class="flex items-center">
+                            <span class=" h-10 w-10 bg-yellow-200/30 backdrop-blur shadow-md rounded-sm flex flex-col items-center justify-center text-yellow-500"><i class="fa-solid fa-star"></i></span>
+                            <p class=" ml-2 text-secondary lg:text-sm xl:text-lg">Vacunas seleccionadas</p>
+                        </div>
+                    </div>
+                    <div class="w-full mt-10" >
+                        <div class="flex items-center">
+                            <span class=" h-10 w-10  bg-blue-500/20 backdrop-blur shadow-md rounded-sm flex flex-col items-center justify-center text-secondary"><i class="fa-solid fa-clock"></i></span>
+                            <p class=" ml-2 text-secondary font-bold lg:text-sm xl:text-lg">Agenda tu fecha de vacunacion</p>
+                        </div>
+                    </div>
+                </div>
+    
             </div>
-
-        </div>
-        <div class="w-[50%] h-full bg-nurse bg-cover bg-center">
-            
-        </div>
+            <div class="w-[50%] h-full bg-nurse bg-cover bg-center">
+                
+            </div>
+            <form class="w-[70%] flex justify-between rounded absolute bottom-3 left-32 p-5 backdrop-blur bg-white/80 shadow-xl z-40">
+                <div class="flex flex-col">
+                    <div class="flex items-center mb-2">
+                        <span class=" h-10 w-10  bg-blue-500/20 backdrop-blur shadow-md rounded-sm flex flex-col items-center justify-center text-secondary"><i class="fa-solid fa-location-dot"></i></span>
+                        <p class=" ml-2 text-gray-500 text-lg">Ubicacion</p>
+                    </div>
+                    <select class="form-select appearance-none
+                    w-full
+                    px-4
+                    py-1.5
+                    text-base
+                    font-bold
+                    text-primary
+                    bg-white bg-clip-padding bg-no-repeat
+                    border border-solid border-gray-300
+                    rounded
+                    transition
+                    ease-in-out
+                    
+                    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+                        <option selected>Mexico</option>
+                    </select>
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex items-center mb-2">
+                        <span class=" h-10 w-10  bg-blue-500/20 backdrop-blur shadow-md rounded-sm flex flex-col items-center justify-center text-secondary"><i class="fa-solid fa-calendar-days"></i></span>
+                        <p class=" ml-2 text-gray-500 text-lg">Fecha</p>
+                    </div>
+                    <input class="font-bold text-base  text-primary border border-solid border-gray-300 px-4
+                    py-1.5  rounded " type="date" />
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex items-center mb-2">
+                        <span class=" h-10 w-10  bg-blue-500/20 backdrop-blur shadow-md rounded-sm flex flex-col items-center justify-center text-secondary"><i class="fa-solid fa-syringe"></i></span>
+                        <p class=" ml-2 text-gray-500 text-lg">Tipo de vacuna</p>
+                    </div>
+                    <select class="form-select appearance-none
+                    w-full
+                    px-4
+                    py-1.5
+                    text-base
+                    font-bold
+                    text-primary
+                    bg-white bg-clip-padding bg-no-repeat
+                    border border-solid border-gray-300
+                    rounded
+                    transition
+                    ease-in-out
+                    
+                    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+                        <option selected>Moderna</option>
+                    </select>
+                </div>
+                <button 
+                class="w-auto h-10 self-center px-6 py-2.5 bg-primary text-white font-medium text-small rounded shadow-lg hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                data-mdb-ripple="true"
+                data-mdb-ripple-color="light"
+                type="button">
+                Reservar
+                </button>
+            </form>
+        </section>
     </main>
     <script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
-
+    <script src="https://kit.fontawesome.com/dbe15812eb.js" crossorigin="anonymous"></script>
 </body>
 </html>
