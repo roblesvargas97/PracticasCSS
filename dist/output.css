@@ -3989,12 +3989,44 @@ textarea.form-control.is-invalid {
   left: 8rem;
 }
 
+.top-20 {
+  top: 5rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
 .z-50 {
   z-index: 50;
 }
 
 .z-40 {
   z-index: 40;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.z-\[-2\] {
+  z-index: -2;
+}
+
+.z-\[\] {
+  z-index: ;
 }
 
 .ml-2 {
@@ -4007,6 +4039,10 @@ textarea.form-control.is-invalid {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .block {
@@ -4051,6 +4087,10 @@ textarea.form-control.is-invalid {
 
 .h-72 {
   height: 18rem;
+}
+
+.h-\[90vh\] {
+  height: 90vh;
 }
 
 .min-h-\[320px\] {
@@ -4289,6 +4329,16 @@ textarea.form-control.is-invalid {
   line-height: 1.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -4324,6 +4374,10 @@ textarea.form-control.is-invalid {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .shadow-lg {
@@ -4439,8 +4493,24 @@ textarea.form-control.is-invalid {
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:relative {
+    position: relative;
+  }
+
+  .lg\:top-28 {
+    top: 7rem;
+  }
+
   .lg\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:flex {
@@ -4455,9 +4525,25 @@ textarea.form-control.is-invalid {
     width: 50%;
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-4xl {
@@ -4473,6 +4559,14 @@ textarea.form-control.is-invalid {
   .lg\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .lg\:opacity-25 {
+    opacity: 0.25;
+  }
+
+  .lg\:opacity-100 {
+    opacity: 1;
   }
 }
 
