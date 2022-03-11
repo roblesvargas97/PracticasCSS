@@ -4085,6 +4085,10 @@ textarea.form-control.is-invalid {
   width: 70%;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
 .min-w-\[320px\] {
   min-width: 320px;
 }
@@ -4179,6 +4183,12 @@ textarea.form-control.is-invalid {
   margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-0 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
+}
+
 .self-center {
   align-self: center;
 }
@@ -4252,6 +4262,16 @@ textarea.form-control.is-invalid {
   background-color: rgb(59 130 246 / 0.2);
 }
 
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+.bg-blue-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+}
+
 .bg-nurse {
   background-image: url('https://i.imgur.com/hVSInLf.jpg');
 }
@@ -4286,6 +4306,10 @@ textarea.form-control.is-invalid {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-20 {
@@ -4677,6 +4701,10 @@ textarea.form-control.is-invalid {
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
