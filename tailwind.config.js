@@ -7,7 +7,10 @@ module.exports = {
         'secondary' : '#1f3e72',
       },
       backgroundImage: {
-        "nurse": "url('https://i.imgur.com/hVSInLf.jpg')"
+        "nurse": "url('https://i.imgur.com/hVSInLf.jpg')",
+        "nurse2": "url('https://i.imgur.com/O0C4BI6.jpg')",
+        "nurse3": "url('https://i.imgur.com/GgGVLU8.jpg')"
+
       }
     },
     fontFamily: {
