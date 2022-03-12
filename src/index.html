@@ -17,7 +17,7 @@
             <a class=" text-gray-500 font-bold text-sm cursor-pointer rounded hover:bg-primary p-5 hover:text-white transition-all">Base Informativa</a>
             <a class=" text-gray-500 font-bold text-sm cursor-pointer rounded hover:bg-primary p-5 hover:text-white transition-all">Educacion</a>
             <a class=" text-gray-500 font-bold text-sm cursor-pointer rounded hover:bg-primary p-5 hover:text-white transition-all">Noticias</a>
-            <a class=" text-gray-500 font-bold text-sm cursor-pointer rounded hover:bg-primary p-5 hover:text-white transition-all">Regulation</a>
+            <a class=" text-gray-500 font-bold text-sm cursor-pointer rounded hover:bg-primary p-5 hover:text-white transition-all">Regulacion</a>
         </nav>
         <button 
                 class="w-auto h-auto px-6 py-2.5 bg-primary text-white font-medium text-small rounded shadow-lg hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
@@ -27,8 +27,24 @@
                 Informate
         </button>
     </header>
-    <div class="w-full h-[15vh] px-10 backdrop-blur bg-white/80 flex justify-between items-center lg:hidden fixed top-0 left-0 z-50 min-w-[320px]"  id="header-mobile ">
-        <button class="w-10 h-10 bg-blue-600 text-white rounded">
+    <div class="w-[100%] h-[100vh] bg-blue-400/40 backdrop-blur-sm fixed hidden top-0 z-50 container-nav lg:hidden" id="container-nav-mobile">
+        <div class="w-[70%] h-full p-10 bg-white flex flex-col rounded">
+            <button 
+                class="w-10 h-10 bg-primary flex items-center justify-center text-white self-end rounded"
+                type="button"
+                id="close-button-menu-mobile"
+            >x</button>
+            <h1 class="font-bold text-primary text-5xl text-center">Vaccination</h1>
+            <nav class="flex flex-col text-gray-500 w-full space-y-10 mt-10">
+                <a class=" cursor-pointer text-center text-3xl font-bold ">Base Informativa</a>
+                <a class=" cursor-pointer text-center text-3xl font-bold ">Educacion</a>
+                <a class=" cursor-pointer text-center text-3xl font-bold ">Noticias</a>
+                <a class=" cursor-pointer text-center text-3xl font-bold ">Regulacion</a>
+            </nav>
+        </div>
+    </div>
+    <div class="w-full h-[15vh] px-10 backdrop-blur bg-white/80 flex justify-between items-center lg:hidden fixed top-0 left-0 z-40 min-w-[320px]"  id="header-mobile ">
+        <button class="w-10 h-10 bg-blue-600 text-white rounded" id="menu-button-mobile">
             <i class="fa-solid fa-bars"></i>
         </button>
         <h1 class="font-bold text-primary text-2xl">Vaccination</h1>

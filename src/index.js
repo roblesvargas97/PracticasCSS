@@ -1,11 +1,31 @@
 const buttonRegister = document.querySelector("#button-register");
 const buttonCloseForm = document.querySelector("form #close-form-button");
 const registerForm = document.querySelector("#register-form");
+const containerNavMobile = document.querySelector('#container-nav-mobile');
+const menuButton = document.querySelector('#menu-button-mobile');
+const menuButtonClose = document.querySelector('#close-button-menu-mobile');
+
 let showForm = false;
 
 window.onscroll = () => {
     scrollFunction();
 };
+
+menuButtonClose.addEventListener('click' , ()=> {
+    containerNavMobile.classList.add('hidden');
+})
+
+menuButton.addEventListener('click' , () => {
+    containerNavMobile.classList.remove('hidden');
+})
+
+containerNavMobile.addEventListener('click' , (e)=> {
+
+    if(e.target.classList.contains('container-nav')){
+        containerNavMobile.classList.add('hidden');
+    }
+
+});
 
 buttonRegister.addEventListener('click' , (e)=> {
     toggleForm(e);
