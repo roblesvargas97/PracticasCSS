@@ -4764,6 +4764,10 @@ textarea.form-control.is-invalid {
     width: 100%;
   }
 
+  .lg\:w-\[70\%\] {
+    width: 70%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -4790,6 +4794,14 @@ textarea.form-control.is-invalid {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+  }
+
+  .lg\:p-40 {
+    padding: 10rem;
+  }
+
+  .lg\:p-10 {
+    padding: 2.5rem;
   }
 
   .lg\:px-20 {
